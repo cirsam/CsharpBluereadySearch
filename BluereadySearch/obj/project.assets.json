@@ -13361,11 +13361,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cirsa\\source\\Blueready\\BluereadySearch\\BluereadySearch.csproj",
+      "projectUniqueName": "C:\\Users\\cirsa\\source\\repos\\Blueready\\BluereadySearch\\BluereadySearch.csproj",
       "projectName": "BluereadySearch",
-      "projectPath": "C:\\Users\\cirsa\\source\\Blueready\\BluereadySearch\\BluereadySearch.csproj",
+      "projectPath": "C:\\Users\\cirsa\\source\\repos\\Blueready\\BluereadySearch\\BluereadySearch.csproj",
       "packagesPath": "C:\\Users\\cirsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cirsa\\source\\Blueready\\BluereadySearch\\obj\\",
+      "outputPath": "C:\\Users\\cirsa\\source\\repos\\Blueready\\BluereadySearch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

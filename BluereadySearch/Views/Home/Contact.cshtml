@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Contact Blueready Search";
+}
+<div class="container body-content">
+    <h2>@ViewData["Title"]</h2>
+    <br />
+    <address>
+        <p><abbr title="Name"><strong>Founder and CEO:</strong></abbr> Samuel Antwi</p>
+        <p><abbr title="Phone"><strong>Phone:</strong></abbr> 937.536.9660</p>
+    </address>
+    <h3>Leave us a message</h3>
+    <div>
+        <div id="contactus">
+            <select name="contact_type" id="contact_type">
+                <option value="" selected>Select Department</option>
+                <option value="support">Support</option>
+                <option value="marketing">Marketing</option>
+            </select>
+            <div><input type="text" value="" name="firstname" placeholder="Enter your first name or given name" /></div>
+            <div><input type="text" value="" name="lastname" placeholder="Enter your last name or surname" /></div>
+            <div><input type="email" value="" name="email" placeholder="Enter your email address" /></div>
+            <div><input type="text" value="" name="phone" placeholder="Enter your phone number" /></div>
+            <div><textarea placeholder="Enter your message here" name="message"></textarea></div>
+            <div><input type="button" value="submit" name="post" /></div>
+        </div>
+    </div>
+</div>
+
