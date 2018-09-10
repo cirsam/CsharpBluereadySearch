@@ -21,9 +21,9 @@ namespace BluereadySearch.Controllers
 
         public IActionResult Index()
         {
-            var sel = _bRContext.Userinfos;
+            var select = _bRContext.Userinfos;
 
-            return View(sel);
+            return View(select);
         }
 
         public IActionResult About()
