@@ -26,4 +26,7 @@
     <Content Remove="wwwroot\images\hand-touching-3d-rendering-of-world-and-networks_208128647867203403.jpg" />
     <Content Remove="wwwroot\images\background.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Userinfo\" />
+  </ItemGroup>
 </Project>

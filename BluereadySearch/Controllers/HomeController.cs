@@ -12,9 +12,17 @@ namespace BluereadySearch.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly BRContext _bRContext;
+
+        public HomeController(BRContext bRContext)
+        {
+            _bRContext = bRContext;
+        }
+
         public IActionResult Index()
         {
-            return View();
+            var sel = _bRContext.Userinfos;
+            return View(sel);
         }
 
         public IActionResult About()

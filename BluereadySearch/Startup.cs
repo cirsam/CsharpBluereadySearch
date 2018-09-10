@@ -27,7 +27,10 @@ namespace BluereadySearch
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DataConnect")));
+
+            services.AddDbContext<BRContext>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("DataConnect")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
