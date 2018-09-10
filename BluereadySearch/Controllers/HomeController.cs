@@ -22,6 +22,7 @@ namespace BluereadySearch.Controllers
         public IActionResult Index()
         {
             var sel = _bRContext.Userinfos;
+
             return View(sel);
         }
 

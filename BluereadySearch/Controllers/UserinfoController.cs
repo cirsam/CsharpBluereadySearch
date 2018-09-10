@@ -23,6 +23,7 @@ namespace BluereadySearch.Controllers
         public IActionResult Index()
         {
             var select = _bRContext.Userinfos.Where(x=>x.UserID==1);
+
             return View(select);
         }
     }
